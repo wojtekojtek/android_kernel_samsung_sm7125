@@ -1,8 +1,6 @@
 name: Build RESS-nomount kernel
 
 on:
-  schedule:
-    - cron: '0 6 * * 1'
   workflow_dispatch:
     inputs:
       build_a52q:
